@@ -1,0 +1,11 @@
+module github.com/<username>/<repository>
+
+go 1.17
+
+require (
+    // Add any required dependencies here
+)
+
+// Add a replace directive to specify the executable command
+replace github.com/<username>/<repository> => ./cmd/<command>
+
