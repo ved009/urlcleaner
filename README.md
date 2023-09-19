@@ -18,3 +18,6 @@ When passed through urlcleaner as stdin, the output comes out to
 
 https://www.google.com
 https://www.google.com?u=100
+
+##Installation
+$ go install -v github.com/ved009/urlcleaner@latest
